@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <!-- -------------------------CENTERED CARD LAYOUT---------------------------------- -->
+    <div class="w-full flex flex-wrap gap-10 justify-center items-center min-h-screen bg-blue-500">
+        <div class="w-72 h-96 text-gray-600 rounded-lg px-8 py-4 bg-white hover:scale-110 hover:ease hover:duration-300">
+            <h3 class="text-lg text-blue-500 font-bold">Start-Up</h3>
+            <h3 class="text-lg text-blue-500 font-extrabold">Free Forever</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum blanditiis, sapiente aliquid minus dolorum repellat delectus amet. Dolorum, vitae minus quod consequuntur </p>
+            <ul class="space-y-2 mt-2">
+                <li><i class="fa-solid fa-check mr-2 text-blue-500"></i><span>50GB File Storage</span></li>
+                <li><i class="fa-solid fa-check mr-2 text-blue-500"></i><span>500 Emails Per Day</span></li>
+                <li><i class="fa-solid fa-check mr-2 text-blue-500"></i><span>10 Workflows</span></li>
+               
+            </ul>
+            <div class="text-center border border-blue-500 rounded-3xl py-2 px-2 text-blue-600 hover:bg-blue-500 hover:text-white mt-2 cursor-pointer">Request a demo</div>
+        </div>
+
+        <!-- --------------------------------------MULTIPLE RESPONSIVE CARD LAYOUT------------------------------- -->
+
+    <h2 class="text-center text-blue-600 mt-4 font-semibold">Responsive Cards using TailwindCss</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-h-screen w-full place-items-center gap-4">
+        <div class="w-80 h-80 shadow-lg rounded-lg px-4 py-16 hover:shadow-blue-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius nisi quisquam non?Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius 
+            <button type="button" class="text-blue-600 mt-4 hover:text-blue-400 font-light">Read More</button>
+        </div>
+        <div class="w-80 h-80 shadow-lg rounded-lg px-4 py-16 hover:shadow-blue-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius nisi quisquam non?Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius 
+            <button type="button" class="text-blue-600 mt-4 hover:text-blue-400 font-light">Read More</button>
+        </div>
+        <div class="w-80 h-80 shadow-lg rounded-lg px-4 py-16 hover:shadow-blue-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius nisi quisquam non?Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius 
+            <button type="button" class="text-blue-600 mt-4 hover:text-blue-400 font-light">Read More</button>
+        </div>
+        <div class="w-80 h-80 shadow-lg rounded-lg px-4 py-16 hover:shadow-blue-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius nisi quisquam non?Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius 
+            <button type="button" class="text-blue-600 mt-4 hover:text-blue-400 font-light ">Read More</button>
+        </div>
+        <div class="w-80 h-80 shadow-lg rounded-lg px-4 py-16 hover:shadow-blue-100">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius nisi quisquam non?Quibusdam ipsum aliquam voluptate aliquid fuga ratione praesentium eius 
+            <button type="button" class="text-blue-600 mt-4 hover:text-blue-400 font-light">Read More</button>
+        </div>
+    </div>
+
+    <!-- ------------------------------LEFT AND RIGHT LAYOUT--------------------------------------------------------- -->
+
+    <div class="flex h-screen">
+        <img class="hidden lg:block w-1/2" src="../image.jpg" alt="">
+        <div class="flex flex-col justify-center items-center w-full lg:w-1/2">
+            <div>
+                <div class="text-xl text-center font-bold lg:text-left">
+                    <span class="text-purple-400">Tutorial</span>
+                </div>
+                <div class="text-3xl text-center font-bold lg:text-left">
+                    <h2>Hello,</h2>
+                    <h2>Welcome Back</h2>
+                </div>
+                <!-- login form -->
+                 <form action="" class="mt-8 w-[80%] lg:w-96 mx-auto space-y-4">
+                    <h4>Login to manage your account.</h4>
+                    <input class="border w-full px-4 py-2" type="email" placeholder="Email">
+                    <input class="border w-full px-4 py-2" type="password" placeholder="Password">
+                    <div class="text-blue-600 cursor-pointer hover:text-blue-400">Forgot your Password?</div>
+                    <button class="w-full bg-green-600 text-white cursor-pointer rounded py-2 hover:bg-green-500 font-bold">Login</button>
+                 </form>
+            </div>
+            <div class="text-center space-y-4 mt-3"><span>or</span>
+                <div class="flex justify-center gap-8 items-center">
+                    <i class="fa-brands fa-instagram text-2xl cursor-pointer"></i>
+                    <i class="fa-brands fa-facebook text-2xl cursor-pointer"></i>
+                    <i class="fa-brands fa-google text-2xl cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="text-center text-sm mt-3">don't have an account?<span class="text-blue-600 cursor-pointer"> sign up here</span> </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------LAYOUT-4--------------------------- -->
+
+    <div class="grid  min-h-screen grid-cols-3 gap-4"></div>
+       
+        <div class="h-70 col-span-3 bg-gradient-to-r from-purple-500 to-pink-500">
+            <h2 class="text-center py-32 font-semibold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eligendi saepe, dolorem praesentium libero atque quisquam minus, amet accusamus, non earum voluptatum et quia quo. Officiis ex qui tempore consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quas ipsa suscipit distinctio necessitatibus dolorem dicta ratione, obcaecati delectus minus illo praesentium similique corrupti molestiae et ducimus sit laboriosam voluptatibus?</h2>
+        </div>   
+        <div class="h-50 bg-pink-500 text-center p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate voluptas laboriosam accusamus hic recusandae ad facere minima, magnam itaque dignissimos amet, totam et aliquam ullam atque quis aperiam eaque eum perspiciatis ea nisi repellendus tempora. Itaque quisquam voluptatem labore qui.</div>
+        <div class="h-50 bg-pink-500 text-center p-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint soluta nihil quo repellat cum sed quas fugiat modi minus, accusamus voluptate, deserunt odit aperiam aliquid ipsum animi. Deserunt accusantium nam quam, aliquid ducimus fugit earum ipsam quaerat consequuntur. Quibusdam, eum.</div>
+        <div class="h-50 bg-pink-500 text-center p-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint soluta nihil quo repellat cum sed quas fugiat modi minus, accusamus voluptate, deserunt odit aperiam aliquid ipsum animi. Deserunt accusantium nam quam, aliquid ducimus fugit earum ipsam quaerat consequuntur. Quibusdam, eum.</div>
+    </div>
+
+</body>
+</html>
